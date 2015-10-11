@@ -1,0 +1,32 @@
+{
+  "name": "mnbeerapi",
+  "version": "1.0.0",
+  "description": "Note: Currently in development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cena/mnbeerapi.git"
+  },
+  "author": "Cena Mayo and Maria Stommes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cena/mnbeerapi/issues"
+  },
+  "homepage": "https://github.com/cena/mnbeerapi#readme",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.4.1",
+    "mongoose": "^4.1.10",
+    "passport": "^0.3.0",
+    "path": "^0.12.7"
+  }
+}
